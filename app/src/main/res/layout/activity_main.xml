@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/ic_logo" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="120dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_textfield"
+            android:ems="10"
+            android:hint="@string/email"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_textfield"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="85dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:text="@string/create_a_new_account"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+</RelativeLayout>
